@@ -1,13 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import './cardGame.css'; 
-const data = {
-  "Germany": "Berlin",
-  "Azerbaijan": "Baku",
-  "Poland": "Warszawa",
-  "Papua New Guinea": "Port Moresby",
-};
 
-const CardFlipGame = () => {
+const CardFlipGame = (data) => {
   const valuesRef = useRef(Object.entries(data));
   const [entries, setEntries] = useState({});
 
