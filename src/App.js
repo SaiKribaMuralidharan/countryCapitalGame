@@ -13,7 +13,7 @@ const data = {
 function App() {
   return (
     <div className="App">
-    <CardFlipGame data={data}/>
+    <CardFlipGame/>
     </div>
   );
 }
